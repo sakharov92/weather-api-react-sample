@@ -1,0 +1,11 @@
+.weather {
+    font-size: 22px;
+}
+
+.weather span {
+    font-weight: bold;
+    color: rgb(53, 41, 136);
+}
+.weather p {
+    color: #e8e6f3;
+}
