@@ -33,14 +33,14 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App" >
+      <main className="App" >
         <img src={background} alt="background"></img>
         <Info />
         <Form weatherFunction={this.getWeather} />
         <Weather
           weather={this.state}
         />
-      </div>
+      </main>
     );
   }
 }
